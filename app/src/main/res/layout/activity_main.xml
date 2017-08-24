@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.mht.example.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_picker"
+        android:layout_width="match_parent"
+        android:onClick="onPicCall"
+        android:layout_height="match_parent"
+        android:src="@android:drawable/gallery_thumb"
+         />
+
+    <Button
+        android:onClick="onPicCall"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Open Picker"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
